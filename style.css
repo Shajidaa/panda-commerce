@@ -1,0 +1,208 @@
+
+
+
+/* common style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.description{
+  font-size: 16px;
+    font-weight:400;
+    color:rgb(78, 78, 78) ;
+ 
+}
+.btn-primary{
+    font-size: 16px;
+    font-weight:400;
+    color:rgb(255, 254, 254) ;
+    background-image: linear-gradient(to right, rgb(255, 88, 155) ,
+             rgb(255, 19, 111) );
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.sub-title{
+    font-size: 34px;
+    font-weight: 500px;
+    margin: 50px 0px;
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    /* border: 2px solid green; */
+}
+
+nav div input {
+    width: 390px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(241, 241, 241);
+}
+nav div i{
+    position: relative;
+    left: -30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  
+    
+}
+nav ul li{
+      
+     list-style: none;
+
+}
+nav  li a{
+    text-decoration: none;
+      color: gray;
+      font-size: medium;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color:rgb(254, 234, 233) ;
+
+}
+
+.banner-text h4{
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(31, 31, 31) ;
+    margin-bottom: 8px;
+}
+.banner-text p{
+      margin-bottom: 8px;
+      width: 75%;
+}
+.banner-text span {
+     font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 19, 111);
+    display: block;
+    margin-bottom: 15px;
+
+}
+/* banner-img */
+.banner-img img {
+    width: 400px; 
+    height: 375px;
+}
+
+/* categories */
+ 
+/* .categories h1{
+    font-size: 34px;
+    font-weight: 500px;
+    margin: 20px 0px;
+} */
+.categories-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.categories-item{
+    display:flex;
+   justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    border-radius: 14px;
+    padding: 10px;
+    background-image:linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25) );
+}
+
+.categories-item h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+/* Shoes  */
+/* .title{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.shoes-items{
+    
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+}
+.shoes-item{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255) ;
+}
+.shoes img{
+    width: 330px ;
+    height: 200px;
+
+} 
+.shoes h1{
+    font-size:25px ;
+    font-weight: 600;
+}
+.shoes p{
+     width: 60%;
+     margin: 5px 0px;
+
+}
+.shoes span{
+    font-size:25px ;
+    font-weight: 600;
+    color: black;
+    display: block;
+    padding: 8px 0px ;
+}
+
+
+/* stay-in-touch */
+.stay-in-touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: ; */
+    height: 455px;
+    line-height: 50px;
+}
+.stay-in-touch h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+.input-btn{
+    display: inline-block;
+      gap: 0px; 
+}
+.input-btn input{
+    width: 500px;
+    padding: 15px;
+    border: none;
+      font-size: 24px;
+    
+
+}
