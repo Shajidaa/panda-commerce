@@ -28,6 +28,16 @@
     border: none;
     border-radius: 10px;
 }
+.btn-black{
+    background-color: black;
+     font-size: 16px;
+    font-weight:400;
+    color:rgb(255, 254, 254) ;
+    
+    padding: 15px;
+    border: none;
+    
+}
 .sub-title{
     font-size: 34px;
     font-weight: 500px;
@@ -128,6 +138,7 @@ nav  li a{
     background-image:linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25) );
 }
 
+
 .categories-item h3{
     font-size: 30px;
     font-weight: 500;
@@ -156,6 +167,9 @@ nav  li a{
     border-radius: 10px;
     background-color:rgb(255, 255, 255) ;
 }
+
+
+
 .shoes img{
     width: 330px ;
     height: 200px;
