@@ -135,9 +135,25 @@ nav  li a{
     gap: 10px;
     border-radius: 14px;
     padding: 10px;
-    background-image:linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25) );
+    /* background-image:linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25) ); */
 }
+.categories-item:nth-child(1)
+{
+  background-image:linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25) );
 
+}
+.categories-item:nth-child(2)
+{
+  background-image:linear-gradient(to right, rgb(255, 88, 155) ,
+             rgb(255, 19, 111) );
+
+}
+.categories-item:nth-child(3)
+{
+  background-image:linear-gradient(to right, rgb(66, 137, 255),
+rgb(63, 7, 248));
+
+}
 
 .categories-item h3{
     font-size: 30px;
